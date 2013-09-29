@@ -4,9 +4,7 @@ set -e
 
 # curl -s http://api.duckduckgo.com/\?no_html\=1\&format\=xml\&q\="$*" | hxselect -c "Answer";
 
-local response=$(curl -s http://api.duckduckgo.com/\?no_html\=1\&format\=xml\&q\="$*");
-local result;
-local found;
+response=$(curl -s http://api.duckduckgo.com/\?no_html\=1\&format\=xml\&q\="$*");
 
 # Try to get "Abstract"
 found="Abstract";
