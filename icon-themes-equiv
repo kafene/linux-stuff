@@ -1,8 +1,9 @@
 ### This control file can be used to generate a .deb package that
 ### Provides various icon themes, so you won't be forced to install
-### them, as some programs unnecessarily depend on them. To create
-### the package, run `equivs-build icon-themes-equiv` from the same
-### directory as this file. You can then install it by running
+### them, as some programs unnecessarily depend on them. However,
+### you will still be able to install the ones you choose manually.
+### To create the package, run `equivs-build icon-themes-equiv` from
+### the same directory as this file. You can then install it by running
 ### `dpkg -i icon-themes-equiv_1.0_all.deb` as root.
 
 Section: misc
